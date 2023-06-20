@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@iconify-json/iconamoon': ^1.1.0
   '@playwright/test': ^1.28.1
   '@sveltejs/adapter-auto': ^2.0.0
   '@sveltejs/kit': ^1.5.0
@@ -23,6 +24,7 @@ specifiers:
   vitest: ^0.25.3
 
 devDependencies:
+  '@iconify-json/iconamoon': 1.1.0
   '@playwright/test': 1.35.1
   '@sveltejs/adapter-auto': 2.1.0_@sveltejs+kit@1.20.4
   '@sveltejs/kit': 1.20.4_svelte@3.59.1+vite@4.3.9
@@ -318,6 +320,12 @@ packages:
 
   /@humanwhocodes/object-schema/1.2.1:
     resolution: {integrity: sha512-ZnQMnLV4e7hDlUvw8H+U8ASL02SS2Gn6+9Ac3wGGLIe7+je2AeAOxPY+izIPJDfFDb7eDjev0Us8MO1iFRN8hA==}
+    dev: true
+
+  /@iconify-json/iconamoon/1.1.0:
+    resolution: {integrity: sha512-AiE9xVA/RwE3cniYejcaOaQIxx7P5LMDoJlp6Ey2/4k5gI1GZ6rxbKFvgZsEpG3CauoAr3PDetEj55HGSNhTyw==}
+    dependencies:
+      '@iconify/types': 2.0.0
     dev: true
 
   /@iconify/types/2.0.0:

@@ -1,6 +1,4 @@
-import type { RequestHandler } from "@sveltejs/kit";
-
-export const GET: RequestHandler = async ({ fetch, url }) => {
+export const GET = async ({ fetch, url }) => {
   const id = url.searchParams.get("id");
   const label = url.searchParams.get("label");
 

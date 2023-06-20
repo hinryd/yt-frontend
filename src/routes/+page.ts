@@ -1,5 +1,3 @@
-import type { PageLoad } from "./$types";
-
 type Popular = {
   type: "shortVideo";
   title: string;
@@ -19,7 +17,7 @@ type Popular = {
   publishedText: string;
 }[];
 
-export const load: PageLoad = ({ fetch }) => {
+export const load = ({ fetch }) => {
   return {
     popular: fetch(
       "https://vid.puffyan.us/api/v1/popular",
