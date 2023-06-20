@@ -33,7 +33,7 @@
 				<p class="font-bold text-sm">{data.video.author}</p>
 				<p class="text-xs">{data.video.publishedText}</p>
 			</div>
-			<p class="max-h-40 overflow-y-auto">{data.video.description}</p>
+			<div class="max-h-40 overflow-y-auto">{@html data.video.descriptionHtml}</div>
 		</figcaption>
 	</figure>
 

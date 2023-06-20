@@ -9,7 +9,7 @@
 		{#each popularVideos as vid}
 			<a class="group flex flex-col" href={`video?id=${vid.videoId}`}>
 				<img
-					class="w-full h-48 object-cover group-hover:rounded-xl transition-all"
+					class="w-full h-48 object-cover rounded-xl group-hover:rounded-none transition-all"
 					src={vid.videoThumbnails[3].url}
 					alt={vid.title}
 					loading="eager"

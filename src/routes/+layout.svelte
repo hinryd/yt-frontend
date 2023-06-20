@@ -15,9 +15,9 @@
 	}
 </script>
 
-<div class="transition-all dark:bg-slate-700 dark:text-white">
+<div class="transition-all dark:bg-slate-800 dark:text-white">
 	<nav
-		class="sticky top-0 z-50 h-14 px-5 flex justify-between items-center shadow-md bg-white dark:bg-slate-500"
+		class="sticky top-0 z-50 h-14 px-5 flex justify-between items-center shadow-md bg-white dark:bg-slate-600"
 	>
 		<a class="font-bold" href="/">INVIDIOUS</a>
 
@@ -34,7 +34,7 @@
 	</nav>
 
 	{#key $page.url}
-		<main class="max-w-7xl mx-auto px-auto px-8 my-8" in:fade|local={{ duration: 300 }}>
+		<main class="max-w-7xl mx-auto p-4 md:p-8" in:fade|local={{ duration: 300 }}>
 			<slot />
 		</main>
 	{/key}
